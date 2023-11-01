@@ -26,7 +26,7 @@ route.get('/:id', async(request,response)=>{
 });
 
 
-route.post('/',async(request,response)=>{
+route.post('/create',async(request,response)=>{
     try{
         if(!request.body.Day || !request.body.Work)
         {
